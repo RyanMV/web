@@ -1,4 +1,4 @@
-$('.autoplay').slick({
+$('.autoplay').click({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,

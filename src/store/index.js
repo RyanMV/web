@@ -53,10 +53,13 @@ export default new Vuex.Store({
             });
         },
         RegisterUser(context, userParams) {
+            console.log(userParams);
             Firebase.database.ref("Users").once('value', snap => {
+                console.log("Hola Mundo, LLegas aki?");
                 try {
                     if(snap.val() == null) {
                         Firebase.database.ref("Users").push(userParams);
+                        debugger;
                         window.location.href = "/IniciarSesion";
                     }
                     else {
