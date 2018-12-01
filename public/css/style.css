@@ -1,0 +1,325 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/8.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 100%;
+    float: right;
+    font-size: 1.5vw;
+}
+
+.search {
+    margin-left: 100px;
+    margin-right: 85px;
+    width: 50% !important;
+}
+
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+}
+
+.center form, .center input {
+    display: inline-block;
+}
+
+.input::placeholder, select, label {
+    font-weight: bold !important;
+}
+
+.input-color::placeholder, select, label {
+    color: palevioletred !important;
+    opacity: 0.5 !important;
+}
+
+select, label {
+    opacity: 1 !important;
+}
+
+.btn-pink-radius {
+    border-radius: 20%;
+}
+
+.btn-pink {
+    border: 3px pink solid !important;
+}
+
+.btn-purple {
+    border: 3px rgb(63, 82, 255) solid !important;
+    background: rgb(63, 136, 255);
+    color: white;
+}
+
+.btn-purple:hover {
+    opacity: 0.8;
+}
+
+.btn-purple:active {
+    background: pink;
+}
+
+.text-pink {
+    color: black !important;
+}
+
+.bg-pink {
+    background: pink !important;
+}
+
+.bg-purple {
+    background:rgb(43, 21, 245) !important;
+}
+
+.text-pink {
+    color: rgb(192, 246, 255) !important;
+}
+
+.text-purple {
+    color: blue !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+/* Nav */
+nav {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+.logoHeart {
+    width: 5%;
+    height: auto;
+}
+
+.logoText {
+    font-size: 1.4em;
+    color: white;
+}
+
+.nav-item-color {
+    color: white !important;
+}
+
+.m {
+    font-size: 1em;
+}
+
+.nav-item-color:hover {
+   
+    color: #00FFFF !important;
+}
+
+.dropdown-item:hover{
+
+    background-color: #530494;
+}
+
+.btn-large {
+    width: 100%;
+}
+
+/* Main */
+main {
+    margin: 0px;
+}
+
+#Register {
+    height: calc(100vh + 8vh);
+}
+
+.box {
+    border-color:blue !important;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.box > p {
+    line-height: 1.5em;
+}
+
+.boxDeclaration {
+    background-color:rgba(161, 91, 241, 0.664) !important;
+    margin: 1.5% 1% !important;
+    margin-bottom: 10% !important;
+    min-width: 250px;
+    min-height: 150px;
+}
+
+.boxDeclarationDetails {
+    background-color:rgb(174, 91, 241) !important;
+    margin: 0px !important;
+    min-width: auto !important;
+    min-height: auto !important;
+}
+
+.boxDeclarationDetails .DeclarationMessage {
+    word-break: break-all;
+}
+
+.boxDeclaration h3 {
+    font-size: 1.3em;
+}
+
+.boxDeclaration small {
+    font-size: 0.6em;
+}
+
+.add {
+    border: 2px #420494 solid;
+    border-radius: 50%;
+    background: rgba(143, 46, 253, 0.5);
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 30px;
+    bottom: 5vh;
+    font-size: 2em;
+}
+
+.add:active {
+    font-size: 1.5em;
+    background: pink;
+}
+
+/* Heart */
+.smallHeart {
+    font-size: 0.8em !important;
+}
+
+/* bootstrab foother */
+.blog-footer {
+    padding: 2.5rem 0;
+    color: rgb(203, 218, 0);
+    text-align: center;
+    background-color: #000000fd;
+    border-top: .05rem solid rgb(248, 249, 250);
+    border-bottom: 0.05px solid rgb(248, 249, 250);
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: rgb(250, 250, 250);
+}
+
+@media (max-width: 1200px), (max-height: 620px) {
+    footer {
+        display: none !important;
+    }
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 0rem;
+  }
+  
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 38rem;
+    background-color: #777;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 38rem;
+}
+
+.page-link {
+    color: rgb(83, 37, 247);
+}
+  
+/* Formulary */
+
+.formulario {
+    background-color:rgba(144, 91, 241, 0.664);
+    height: auto;
+    border-color: blue !important;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .formulario {
+        border: none;
+        border-radius: 0px;
+    }
+}
+
+.logo {
+    height: 15%;
+    width: 15%;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+label {
+    text-align: center;
+}
+
+/* Creators */
+.control {
+    width: 100%;
+    height: 100%;
+}
+
+.control h1 {
+    font-size: 3.5vw;
+}
+
+.control h2 {
+    font-size: 2vw;
+}
+
+.participan {
+    margin: 4%;
+    background-color:rgba(241, 91, 241, 0.664);
+    border-color:  purple !important;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .participan {
+        border: none;
+        border-radius: 0px;
+    }
+    
+    .participan figcaption {
+        font-size: 8vw !important;
+    }
+}
+
+.participan img {
+    border: 2px purple solid !important; 
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+.participan figcaption {
+    color: purple;
+    padding-top: 2%;
+    font-size: 1.2vw;
+}
